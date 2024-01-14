@@ -32,7 +32,7 @@ class ApplicationController < Sinatra::Base
   def index; end
 
   get '/new' do
-    erb '/#{root}/new'.to_sym
+    erb "/#{root}/new".to_sym
   end
 
   def new; end
@@ -47,7 +47,7 @@ class ApplicationController < Sinatra::Base
 
   get '/:id/edit' do
     edit
-    erb '/#{root}/edit'.to_sym
+    erb "/#{root}/edit".to_sym
   end
 
   patch '/:id' do
