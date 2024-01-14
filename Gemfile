@@ -6,10 +6,8 @@ gem 'sinatra'
 gem 'activerecord'
 gem 'sinatra-activerecord' # ORM gem
 gem 'sinatra-contrib'
-gem 'thin'
+gem 'puma'
 gem 'rake'
-gem 'faraday'
-gem 'sassc'
 gem 'sinatra-static-assets'
  
 group :development do
